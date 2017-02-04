@@ -8,7 +8,6 @@ import { SAVE_DECEASED_DETAIL, SAVE_CUSTOMER_DETAIL, SAVE_FUNERAL } from '../con
 // create a copy of the state passed and set new values on the copy.
 // Note that I'm using Object.assign to create a copy of current state
 // and update values on the copy.
-
 function caseCustomer(state = initialState, action) {
   let customer;
   let deceased;

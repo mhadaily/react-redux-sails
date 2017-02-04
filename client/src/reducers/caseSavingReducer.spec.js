@@ -41,9 +41,10 @@ describe('Reducers::caseSavingReducer', () => {
     const expectedSavings = { name: '',
       surname: 'Hajian',
       address: {
-        postcode: null,
         line1: '',
-        city: ''
+        city: '',
+        postcode: null,
+        country: ''
       },
       dob: null,
       martialStatus: '',};
