@@ -1,11 +1,13 @@
 export default {
+  caseId: null,
   deceased: {
     name: '',
     surname: '',
     address: {
-      postcode: null,
       line1: '',
-      city: ''
+      city: '',
+      postcode: null,
+      country: ''
     },
     dob: null,
     martialStatus: '',
@@ -19,8 +21,13 @@ export default {
   funeral: {
     type: ''
   },
-  meta:{
+  extra: {
     dobCertificateUrl: null,
     MaritalCertificateUrl: null,
+  },
+  meta: {
+    dateCreated: null,
+    dateModifed: null,
+    adminUser: null,
   }
 };
