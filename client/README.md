@@ -11,8 +11,8 @@ One of the main advantages of using Docker is that we are pretty sure our enviro
 Please after making sure Docker is up and running on your machine go ahead and hit the commands below: 
 
 1. make sure you are in root app directory into CLIENT folder.
-1. `docker-compose up // start building image and run container then` 
-2. Open your browser and magically done just hit http://localhost:3030 and start editing files. 
+2. `docker-compose up`  start building image and run container then
+3. Open your browser and hit http://localhost:3030 and start editing files. 
 
 ### Get Started on your local Machine if you prefer
 **Make sure about Initial Machine Setup below and then Install Yarn**. `https://yarnpkg.com/docs/install` 
@@ -67,6 +67,7 @@ This app offers a rich development experience using the following technologies:
 | [React](https://facebook.github.io/react/)  |   Fast, composable client-side components.   
 | [Redux](http://redux.js.org) |  Enforces unidirectional data flows and immutable, hot reloadable store. Supports time-travel debugging. Lean alternative to [Facebook's Flux](https://facebook.github.io/flux/docs/overview.html).
 | [React Router](https://github.com/reactjs/react-router) | A complete routing library for React 
+| [React Toolbox](http://react-toolbox.com/) | React Toolbox is a set of React components that implement Google's Material Design specification. 
 | [Babel](http://babeljs.io) |  Compiles ES6 to ES5. Enjoy the new version of JavaScript today.    
 | [Webpack](http://webpack.github.io) | Bundles npm packages and our JS into a single file. Includes hot reloading via [react-transform-hmr](https://www.npmjs.com/package/react-transform-hmr).
 | [Browsersync](https://www.browsersync.io/) | Lightweight development HTTP server that supports synchronized testing and debugging on multiple devices.
@@ -79,4 +80,11 @@ This app offers a rich development experience using the following technologies:
 | [Editor Config](http://editorconfig.org) | Enforce consistent editor settings (spaces vs tabs, etc).
 | [Yarn](https://yarnpkg.com)| install all dependencies quick with yarn package management 
 | [npm Scripts](https://docs.npmjs.com/misc/scripts)| Glues all this together in a handy automated build.
+
+### Debugging 
+
+I strongly recommend to use Chrome latest version and install  
+
+1- [React Dev Tool](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+2- [Redux Dev Tool](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) 
 
