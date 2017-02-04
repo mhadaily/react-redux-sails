@@ -14,6 +14,8 @@ export default {
   },
   customer: {
     name: '',
+    sureName: '',
+    email: '',
     phone: '',
     contactWay: '',
     timeToCall: ''
