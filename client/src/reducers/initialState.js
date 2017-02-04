@@ -20,8 +20,7 @@ export default {
     type: ''
   },
   meta:{
-    dateCreated: null,
-    dateUpdated: null,
-    adminUser: null
+    dobCertificateUrl: null,
+    MaritalCertificateUrl: null,
   }
 };
