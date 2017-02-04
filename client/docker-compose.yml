@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  mymoria_dev:
+    container_name: mymoria
+    build: .
+    command: npm run start
+    ports:
+      - "3030:3000"
+    volumes:
+       - .:/home/mymoria/app
+       - mymoria-deps:/home/mymoria/app/node_modules
+
+volumes:
+  mymoria-deps:

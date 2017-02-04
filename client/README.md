@@ -10,11 +10,9 @@ One of the main advantages of using Docker is that we are pretty sure our enviro
 
 Please after making sure Docker is up and running on your machine go ahead and hit the commands below: 
 
-1.
-2.
-3.
-4.
-5.
+1. make sure you are in root app directory into CLIENT folder.
+1. `docker-compose up // start building image and run container then` 
+2. Open your browser and magically done just hit http://localhost:3030 and start editing files. 
 
 ### Get Started on your local Machine if you prefer
 **Make sure about Initial Machine Setup below and then Install Yarn**. `https://yarnpkg.com/docs/install` 
@@ -42,7 +40,7 @@ This will run the automated build process, start up a webserver, and open the ap
 ### Commands
 
 ```json
-    "setup": "node tools/setup/setupMessage.js && yarn install && node tools/setup/setup.js",
+    "setup": "yarn install",
     "start-message": "babel-node tools/startMessage.js",
     "prestart": "npm-run-all --parallel start-message remove-dist",
     "start": "npm-run-all --parallel test:watch open:src lint:watch",
