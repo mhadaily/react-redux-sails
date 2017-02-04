@@ -1,6 +1,6 @@
 # Client Protoype
 
-This is Mymoria protoype for Case Application Management.
+This is Mymoria protoype for Case Management Application.
 
 ### Get Started with DOCKER
 I would personally recommend to go ahead and install docker on your machine which is pretty easy to install and then simply run following 

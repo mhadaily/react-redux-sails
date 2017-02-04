@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+
+.appBar {
+  background-color: $color-primary-dark;
+  > svg {
+    width: 3.4rem;
+    height: 3.4rem;
+    margin-right: 1rem;
+    fill: $white;
+  }
+}

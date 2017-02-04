@@ -1,5 +1,7 @@
+@import "variables";
+
 body {
-  font: 16px/20px 'Roboto', arial;
+  font: 15px/18px 'Roboto', arial;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -7,3 +9,4 @@ body {
   font-smoothing: antialiased;
 }
 
+@import "custom";

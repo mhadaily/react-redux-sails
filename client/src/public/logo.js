@@ -1,6 +1,11 @@
-const Logo = () => ('logo');
+const Logo = () => {
+  return (
+    <h3>MYMORIA</h3>
+  );
+};
 
 export default Logo;
+
 /*
  <svg class="logo" fill="#000000" x="0px" y="0px" viewBox="220 200 880 200" data-reactid="26">
  <g data-reactid="27">
