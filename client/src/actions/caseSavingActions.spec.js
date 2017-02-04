@@ -8,22 +8,21 @@ import initialStates from '../reducers/initialState';
 import * as FuneralTypes from '../constants/FuneralTypes'
 
 describe('Actions', () => {
-  const testStats = initialStates;
 
   it('should create an action to save customer details', () => {
     const expected = {
       type: ActionTypes.SAVE_CUSTOMER_DETAIL,
-      settings: testStats
+      settings: initialStates
     };
-    expect(ActionCreators.saveCustomerDetail(testStats)).to.deep.equal(expected);
+    expect(ActionCreators.saveCustomerDetail(initialStates)).to.deep.equal(expected);
   });
 
   it('should create an action to save deceased details', () => {
     const expected = {
       type: ActionTypes.SAVE_DECEASED_DETAIL,
-      settings: testStats
+      settings: initialStates
     };
-    expect(ActionCreators.saveDeceasedDetail(testStats)).to.deep.equal(expected);
+    expect(ActionCreators.saveDeceasedDetail(initialStates)).to.deep.equal(expected);
   });
 
   it('should create an action to save funeral types', () => {
@@ -32,11 +31,11 @@ describe('Actions', () => {
 
     const expected = {
       type: ActionTypes.SAVE_FUNERAL,
-      settings: testStats,
+      settings: initialStates,
       fieldName,
       value
     };
 
-    expect(ActionCreators.saveFuneral(testStats, fieldName, value)).to.deep.equal(expected);
+    expect(ActionCreators.saveFuneral(initialStates, fieldName, value)).to.deep.equal(expected);
   });
 });
