@@ -1,6 +1,4 @@
 import React from 'react';
-import { Route, IndexRoute } from 'react-router';
-
 import App from './components/App';
 import HomePage from './components/homepage';
 import FuneralForm from './components/case/funeral';
@@ -9,15 +7,22 @@ import DeceasedForm from './components/case/deceased';
 import CaseContainer from './containers/CasePage';
 import NotFoundPage from './components/notFound/NotFound';
 
-export default (
-  <Route path="/" component={App}>
-    <IndexRoute component={HomePage}/>
-    <Route path="/case" component={CaseContainer}>
-      <IndexRoute component={CusteromForm}/>
-      <Route path="/case/deceased" component={DeceasedForm}/>
-      <Route path="/case/funeral" component={FuneralForm}/>
-    </Route>
+const routes = {
+  path: '/',
+  component: App,
+  indexRoute: {component: HomePage},
+  childRoutes: [
+    {
+      path: 'case',
+      component: CaseContainer,
+      indexRoute: {component: CusteromForm},
+      childRoutes: [
+        {path: 'deceased', component: DeceasedForm},
+        {path: 'funeral', component: FuneralForm},
+      ]
+    },
+    {path: '*', component: NotFoundPage},
+  ]
+};
 
-    <Route path="*" component={NotFoundPage}/>
-  </Route>
-);
+export default routes;
