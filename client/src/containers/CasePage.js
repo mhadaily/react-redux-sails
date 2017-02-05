@@ -7,18 +7,14 @@ import CaseComponent  from '../components/case';
 export const CasePage = (props) => {
   return (
     <CaseComponent
-      saveCustomerDetail={props.actions.saveCustomerDetail}
-      saveDeceasedDetail={props.actions.saveDeceasedDetail}
-      saveFuneral={props.actions.saveFuneral}
+      {...props}
     />
   );
 };
 
 function mapStateToProps(state) {
   return {
-    caseCustomer: state.caseCustomer,
-    caseDeseaed: state.caseDeseaed,
-    caseFuneral: state.caseFuneral
+    caseInfo: state.caseInfo,
   };
 }
 
