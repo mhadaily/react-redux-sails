@@ -13,6 +13,8 @@ RUN chown -R mymoria:mymoria $HOME/* /usr/local/
 
 WORKDIR $HOME/app
 
+RUN npm install forever --global --silent --progress=false --production
+RUN npm install nodemon --global --silent --progress=false --production
 RUN npm install sails --global --silent --progress=false --production
 
 RUN npm cache clean && npm install --silent --progress=false --production

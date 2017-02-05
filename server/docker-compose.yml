@@ -12,7 +12,7 @@ services:
   mymoria_dev:
     container_name: mymoria_server
     build: .
-    command: npm run lift
+    command: npm run startDev
     ports:
       - "3040:1337"
     links:

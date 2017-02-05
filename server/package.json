@@ -29,8 +29,9 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js",
-    "lift": "sails lift"
+    "start": "start app.js",
+    "lift": "sails lift",
+    "startDev": "nodemon app.js"
   },
   "main": "app.js",
   "repository": {

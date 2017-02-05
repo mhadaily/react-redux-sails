@@ -52,7 +52,8 @@ Please after making sure Docker is up and running on your machine go ahead and h
 ```json
    "debug": "node debug app.js",
    "start": "node app.js",
-   "lift": "sails lift"
+   "lift": "sails lift",
+   "startDev": "nodemon app.js" //watch all changes and restart server
 ```
 
 ###Technologies
