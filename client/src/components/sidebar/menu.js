@@ -11,6 +11,7 @@ const Menu = () => {
       <Link className={style.noUnderline} to="/"><ListItem caption="Search" leftIcon="search"/></Link>
       <ListDivider />
       <Link className={style.noUnderline} to="/case"> <ListItem caption="Open A Case" leftIcon="send"/></Link>
+      <Link className={style.noUnderline} to="/case/312dda312"> <ListItem caption="Single Page" leftIcon="send"/></Link>
     </List>
   );
 };

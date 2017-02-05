@@ -5,6 +5,7 @@ import CaseContainer from './containers/CasePage';
 import CustomerCaseContainer from './containers/case/customerContainer';
 import DeceasedCaseContainer from './containers/case/deceasedContainer';
 import FuneralCaseContainer from './containers/case/funeralContainer';
+import SingleCaseComponent from './containers/case/singleContainer';
 import NotFoundPage from './components/notFound/NotFound';
 
 const routes = {
@@ -21,6 +22,7 @@ const routes = {
         {path: 'funeral', component: FuneralCaseContainer},
       ]
     },
+    {path: 'case/:id', component: SingleCaseComponent},
     {path: '*', component: NotFoundPage},
   ]
 };
