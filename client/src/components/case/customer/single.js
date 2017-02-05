@@ -10,6 +10,7 @@ class CustomerCards extends React.Component {
   }
 
   handleDataFormat(date) {
+    console.log(date);
     return dateHelper.getFormattedDateTime(new Date(date));
   }
 
