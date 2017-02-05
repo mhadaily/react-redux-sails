@@ -1,6 +1,14 @@
 version: '2'
 
 services:
+  mongodb_mymoria_dev:
+    container_name: mongodb_mymoria_dev
+    image: mongo:3.4.1
+    ports:
+      - "3050:27017"
+    volumes:
+      - mongodb-data:/data/db
+
   mymoria_dev:
     container_name: mymoria_server
     build: .
@@ -8,18 +16,10 @@ services:
     ports:
       - "3040:1337"
     links:
-      - mongodb_dev:mongodb_dev
+      - mongodb_mymoria_dev:mongodb_mymoria_dev
     volumes:
        - .:/home/mymoria/app
        - mymoria-deps:/home/mymoria/app/node_modules
-
-  mongodb_dev:
-    container_name: mongodb_dev
-    image: mongo:3.4.1
-    ports:
-      - "3050:27017"
-    volumes:
-      - mongodb-data:/data/db
 
 volumes:
   mongodb-data:
