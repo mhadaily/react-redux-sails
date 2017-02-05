@@ -1,11 +1,13 @@
 ##Mymoria Prototype
 
-The "case" in the funeral industry is a process of gathering data about the deceased person and about all his wishes for the burial procedure - either from his relatives or another contact person.
+This prototype application was written in server side with 
+ sails and in client side as I as asked with React, Redux and React-toolbox. 
+ Therefore, I have decided to do them completely separate. There maybe exist better 
+ idea however, I will stick on my decision. 
+ 
+ 1- Please to setup and run application in for Client side please follow to the client folder and read instruction. 
+  
+ 2- Please to setup and run application in for Server side please follow to the Server folder and read instruction. 
 
-For a testing purpose, a number of application's entities is limited to three. There are three "entities" in the app: Deceased, Customer, Funeral.
+If you have any question feel free to email me or open an issue.
 
-Deceased has the following set of attributes: Name, Surname, Address (german post-code + address line), Date of Death, Marital status.
-
-During the process, customer care person will ask about some certificates: Birth Date certificate, Marital certificate. It is important to mark the existence of such certificates of a customer.
-
-The customer entity has the following attributes: phone number, name, surname
