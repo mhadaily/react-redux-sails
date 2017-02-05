@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
-import { RadioGroup, RadioButton } from 'react-toolbox/lib/radio';
+import { RadioGroup, RadioButton, Input } from 'react-toolbox';
+import * as FuneralTypes from '../../../constants/FuneralTypes';
 
 class FuneralCaseComponent extends React.Component {
   constructor(props) {
@@ -7,8 +8,12 @@ class FuneralCaseComponent extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange = (name, value) => {
-    this.setState({...this.State, [name]: value});
+  state = {
+    type: FuneralTypes.BURIAL
+  };
+
+  handleChange = (value) => {
+    this.setState({...this.State, type: value});
   };
 
   handleSubmit(e) {
@@ -20,12 +25,15 @@ class FuneralCaseComponent extends React.Component {
     return (
       <section>
         <h3>Funeral Type</h3>
-        <RadioGroup name='type' onChange={this.handleChange.bind(this, 'type')}>
-          <RadioButton label='The Walking Dead' value='thewalkingdead'/>
-          <RadioButton label='From Hell' value='fromhell'/>
-          <RadioButton label='V for a Vendetta' value='vvendetta'/>
-          <RadioButton label='Watchmen' value='watchmen'/>
-        </RadioGroup>
+        <form onSubmit={this.handleSubmit} action="post">
+          <RadioGroup name='type' value={this.state.type} onChange={this.handleChange}>
+            <RadioButton label={FuneralTypes.BURIAL} value={FuneralTypes.BURIAL}/>
+            <RadioButton label={FuneralTypes.SEE} value={FuneralTypes.SEE}/>
+            <RadioButton label={FuneralTypes.TREE} value={FuneralTypes.TREE}/>
+            <RadioButton label={FuneralTypes.CREMATION} value={FuneralTypes.CREMATION}/>
+          </RadioGroup>
+          <Input type="submit" value="Submit"/>
+        </form>
       </section>
     );
   }

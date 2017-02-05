@@ -24,7 +24,7 @@ class CustomerCaseComponent extends React.Component {
           <Input type='text' icon='user' label='Name' name='name'
                  onChange={this.handleChange.bind(this, 'name')}/>
 
-          <Input type='text' icon='user' label='Name' name='sureName'
+          <Input type='text' icon='user' label='SureName' name='sureName'
                  onChange={this.handleChange.bind(this, 'sureName')}/>
 
           <Input type='email' label='Email address' icon='email'

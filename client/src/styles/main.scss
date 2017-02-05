@@ -10,5 +10,12 @@ body {
   -moz-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
+.active {
+  border-bottom: 1px solid green;
+  > button {
+    border-bottom: 1px solid green;
+
+  }
+}
 
 @import "custom";

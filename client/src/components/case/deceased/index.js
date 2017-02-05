@@ -20,30 +20,33 @@ class DeceasedCaseComponent extends React.Component {
     return (
       <section>
         <h3>Customer Info</h3>
-        <Input type='text' icon='user' label='Name' name='name'
-               onChange={this.handleChange.bind(this, 'name')}/>
+        <form onSubmit={this.handleSubmit} action="post">
+          <Input type='text' icon='user' label='Name' name='name'
+                 onChange={this.handleChange.bind(this, 'name')}/>
 
-        <Input type='text' icon='user' label='sureName' name='sureName'
-               onChange={this.handleChange.bind(this, 'sureName')}/>
+          <Input type='text' icon='user' label='sureName' name='sureName'
+                 onChange={this.handleChange.bind(this, 'sureName')}/>
 
-        <Input type='text' icon='user' label='dob' name='dob'
-               onChange={this.handleChange.bind(this, 'dob')}/>
+          <Input type='text' icon='user' label='dob' name='dob'
+                 onChange={this.handleChange.bind(this, 'dob')}/>
 
-        <Input type='text' icon='user' label='line1' name='line1'
-               onChange={this.handleChange.bind(this, 'line1')}/>
+          <Input type='text' icon='user' label='line1' name='line1'
+                 onChange={this.handleChange.bind(this, 'line1')}/>
 
-        <Input type='text' icon='user' label='city' name='city'
-               onChange={this.handleChange.bind(this, 'city')}/>
+          <Input type='text' icon='user' label='city' name='city'
+                 onChange={this.handleChange.bind(this, 'city')}/>
 
-        <Input type='text' icon='user' label='postcode' name='postcode'
-               onChange={this.handleChange.bind(this, 'postcode')}/>
+          <Input type='text' icon='user' label='postcode' name='postcode'
+                 onChange={this.handleChange.bind(this, 'postcode')}/>
 
-        <Input type='text' icon='user' label='country' name='country'
-               onChange={this.handleChange.bind(this, 'country')}/>
+          <Input type='text' icon='user' label='country' name='country'
+                 onChange={this.handleChange.bind(this, 'country')}/>
 
-        <Input type='text' icon='user' label='martialStatus' name='martialStatus'
-               onChange={this.handleChange.bind(this, 'martialStatus')}/>
+          <Input type='text' icon='user' label='martialStatus' name='martialStatus'
+                 onChange={this.handleChange.bind(this, 'martialStatus')}/>
 
+          <Input type="submit" value="Submit"/>
+        </form>
       </section>
     );
   }
