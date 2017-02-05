@@ -13,9 +13,7 @@ RUN chown -R mymoria:mymoria $HOME/* /usr/local/
 
 WORKDIR $HOME/app
 
-RUN npm cache clean && npm install -g yarn --silent --progress=false --production
-
-RUN yarn install
+RUN npm cache clean && npm install --silent --progress=false --production
 
 RUN chown -R mymoria:mymoria $HOME/*
 
