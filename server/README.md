@@ -62,3 +62,13 @@ This app offers a rich development experience using the following technologies:
 |----------|-------|
 | [Sails](https://sails.org/)  |   MVC framework for Node.   
 
+###API
+
+Sails server is being used only to be an API server. Though, Please open 
+`api/models/` folders and you can find all attributes and relation between them. 
+
+`api/controllers` folder is also showing all logic that we need for each model. 
+
+Keep in mind that our main Model is CASE and the rest are related to this model. 
+
+for more information about Sails standard model and controller (API) [please read this document](http://sailsjs.com/documentation/concepts). 
