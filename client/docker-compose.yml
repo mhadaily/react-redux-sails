@@ -2,9 +2,9 @@ version: '2'
 
 services:
   mymoria_dev:
-    container_name: mymoria
+    container_name: mymoria_client
     build: .
-    command: npm run start
+    command: npm start
     ports:
       - "3030:3000"
     volumes:
