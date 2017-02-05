@@ -1,23 +1,23 @@
 import * as types from '../constants/actionTypes';
 
-export function saveCustomerDetail(settings) {
+export function saveCustomerDetail(customerOBJ) {
   return {
     type: types.SAVE_CUSTOMER_DETAIL,
-    settings
+    customerOBJ
   };
 }
 
-export function saveDeceasedDetail(settings) {
+export function saveDeceasedDetail(DeceasedOBJ) {
   return {
     type: types.SAVE_DECEASED_DETAIL,
-    settings
+    DeceasedOBJ
   };
 }
 
-export function saveFuneral(settings, fieldName, value) {
+export function saveFuneral(funeralOBJ, fieldName, value) {
   return {
     type: types.SAVE_FUNERAL,
-    settings,
+    funeralOBJ,
     fieldName,
     value
   };

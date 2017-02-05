@@ -28,7 +28,14 @@ describe('Reducers::caseSavingReducer', () => {
     const action = {type: ActionTypes.SAVE_CUSTOMER_DETAIL, settings: initialState, fieldName: 'name', value: 'Majid'};
 
     const expectedName = 'Majid';
-    const expectedSavings = {name: 'Majid', phone: '', contactWay: '', timeToCall: ''};
+    const expectedSavings = {
+      name: 'Majid',
+      sureName: '',
+      email: '',
+      phone: '',
+      contactWay: '',
+      timeToCall: ''
+    };
 
     expect(reducer(initialState, action).name).to.equal(expectedName);
     expect(reducer(initialState, action)).to.deep.equal(expectedSavings);
@@ -38,7 +45,8 @@ describe('Reducers::caseSavingReducer', () => {
     const action = {type: ActionTypes.SAVE_DECEASED_DETAIL, settings: initialState, fieldName: 'surname', value: 'Hajian'};
 
     const expectedSurname= 'Hajian';
-    const expectedSavings = { name: '',
+    const expectedSavings = {
+      name: '',
       surname: 'Hajian',
       address: {
         line1: '',
@@ -47,8 +55,8 @@ describe('Reducers::caseSavingReducer', () => {
         country: ''
       },
       dob: null,
-      martialStatus: '',};
-
+      martialStatus: '',
+    };
     expect(reducer(initialState, action).surname).to.equal(expectedSurname);
     expect(reducer(initialState, action)).to.deep.equal(expectedSavings);
   });

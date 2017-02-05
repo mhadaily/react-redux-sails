@@ -12,7 +12,7 @@ describe('Actions', () => {
   it('should create an action to save customer details', () => {
     const expected = {
       type: ActionTypes.SAVE_CUSTOMER_DETAIL,
-      settings: initialStates
+      customerOBJ: initialStates
     };
     expect(ActionCreators.saveCustomerDetail(initialStates)).to.deep.equal(expected);
   });
@@ -20,7 +20,7 @@ describe('Actions', () => {
   it('should create an action to save deceased details', () => {
     const expected = {
       type: ActionTypes.SAVE_DECEASED_DETAIL,
-      settings: initialStates
+      DeceasedOBJ: initialStates
     };
     expect(ActionCreators.saveDeceasedDetail(initialStates)).to.deep.equal(expected);
   });
@@ -31,7 +31,7 @@ describe('Actions', () => {
 
     const expected = {
       type: ActionTypes.SAVE_FUNERAL,
-      settings: initialStates,
+      funeralOBJ: initialStates,
       fieldName,
       value
     };
