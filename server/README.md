@@ -77,3 +77,20 @@ Sails server is being used only to be an API server. Though, Please open
 Keep in mind that our main Model is CASE and the rest are related to this model. 
 
 for more information about Sails standard model and controller (API) [please read this document](http://sailsjs.com/documentation/concepts). 
+
+
+| **Name** | **Methods**
+|----------|-------|
+|  /case |      find, findOne, create, update, destroy, populate, add or remove.
+|  /customer |      find, findOne, create, update, destroy, populate, add or remove.
+|  /deceased |      find, findOne, create, update, destroy, populate, add or remove.
+|  /address |      find, findOne, create, update, destroy, populate, add or remove.
+|  /funeral |      find, findOne, create, update, destroy, populate, add or remove.
+
+
+**Usage**
+
+`HOST_API/customer/fineOne?id=:id` will return customer with id
+`HOST_API/customer/find?owner=CASE_ID` will return customer for a case ID
+`HOST_API/deceased/create?owner=CASE_ID&Name="whatever..."` will create customer for a case ID with other fields, please refer to model. 
+
