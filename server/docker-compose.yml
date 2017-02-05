@@ -1,0 +1,27 @@
+version: '2'
+
+services:
+  mymoria_server_dev:
+    container_name: mymoria_server
+    build: .
+    command: npm run lift
+    ports:
+      - "3040:1337"
+    links:
+      - mongodb_dev:mongodb_dev
+    volumes:
+       - .:/home/mymoria/app
+       - mymoria-deps:/home/mymoria/app/node_modules
+
+  mongodb_dev:
+    container_name: mongodb_dev
+    image: mongo:3.4.1
+    ports:
+      - "3050:27017"
+    volumes:
+      - mongodb-data:/data/db
+
+volumes:
+  mongodb-data:
+    driver: local
+  mymoria-deps:
