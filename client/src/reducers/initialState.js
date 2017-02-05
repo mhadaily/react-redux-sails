@@ -1,5 +1,5 @@
 export default {
-  caseId: null,
+  _id: null,
   deceased: {
     name: '',
     surname: '',
@@ -27,9 +27,6 @@ export default {
     dobCertificateUrl: null,
     MaritalCertificateUrl: null,
   },
-  meta: {
-    dateCreated: null,
-    dateModifed: null,
-    adminUser: null,
-  }
+  dateCreated: null,
+  dateModifed: null,
 };
