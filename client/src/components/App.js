@@ -1,5 +1,5 @@
 import React, { PropTypes, Component } from 'react';
-import { Layout, Panel } from 'react-toolbox';
+import { Layout, Panel , Sidebar} from 'react-toolbox';
 
 import MainHeader from './header/Header';
 import Menu from './sidebar/menu';
@@ -16,13 +16,11 @@ class App extends Component {
         <Panel>
           <MainHeader/>
           <Layout>
-            <aside>
+            <Sidebar pinned={true}>
               <Menu/>
-            </aside>
-            <Panel>
-              <div className={style.padding__30}>
-                {this.props.children}
-              </div>
+            </Sidebar>
+            <Panel className={style.padding__30}>
+              {this.props.children}
             </Panel>
           </Layout>
         </Panel>
