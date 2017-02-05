@@ -10,7 +10,7 @@ const fakeData = [
         "postcode": 9430,
         "country": "Oregon"
       },
-      "dob": "1959-05-31T10:22:09 -08:00",
+      "dob": "1959-05-31 10:22:09",
       "martialStatus": "single"
     },
     "customer": {
@@ -19,7 +19,7 @@ const fakeData = [
       "email": "vargascannon@zilla.com",
       "phone": "(807) 543-3562",
       "contactWay": "phone",
-      "timeToCall": "2016-10-27T05:53:30 -08:00"
+      "timeToCall": "2016-10-27 05:53:30"
     },
     "funeral": {
       "type": "Burial"
@@ -28,8 +28,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2014-10-07T05:01:23 -08:00",
-    "dateModifed": "2016-04-06T08:33:02 -08:00",
+    "dateCreated": "2014-10-07 05:01:23",
+    "dateModifed": "2016-04-06 08:33:02",
     "isActive": false
   },
   {
@@ -43,7 +43,7 @@ const fakeData = [
         "postcode": 8011,
         "country": "Nevada"
       },
-      "dob": "1984-03-01T04:10:08 -08:00",
+      "dob": "1984-03-01 04:10:08",
       "martialStatus": "single"
     },
     "customer": {
@@ -52,7 +52,7 @@ const fakeData = [
       "email": "martastanley@zilla.com",
       "phone": "(828) 512-3944",
       "contactWay": "phone",
-      "timeToCall": "2016-04-17T04:15:17 -08:00"
+      "timeToCall": "2016-04-17 04:15:17"
     },
     "funeral": {
       "type": "Tree"
@@ -61,8 +61,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2016-10-16T05:14:04 -08:00",
-    "dateModifed": "2016-10-07T06:06:42 -08:00",
+    "dateCreated": "2016-10-16 05:14:04",
+    "dateModifed": "2016-10-07 06:06:42",
     "isActive": true
   },
   {
@@ -76,7 +76,7 @@ const fakeData = [
         "postcode": 3994,
         "country": "Northern Mariana Islands"
       },
-      "dob": "2009-01-13T10:21:56 -08:00",
+      "dob": "2009-01-13 10:21:56",
       "martialStatus": "single"
     },
     "customer": {
@@ -85,7 +85,7 @@ const fakeData = [
       "email": "moorecollier@zilla.com",
       "phone": "(901) 407-3768",
       "contactWay": "phone",
-      "timeToCall": "2016-04-06T01:49:37 -08:00"
+      "timeToCall": "2016-04-06 01:49:37"
     },
     "funeral": {
       "type": "Cremation"
@@ -94,8 +94,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2011-03-08T12:05:55 -08:00",
-    "dateModifed": "2015-07-08T10:10:11 -08:00",
+    "dateCreated": "2011-03-08 12:05:55",
+    "dateModifed": "2015-07-08 10:10:11",
     "isActive": false
   },
   {
@@ -109,7 +109,7 @@ const fakeData = [
         "postcode": 9073,
         "country": "Arkansas"
       },
-      "dob": "1985-05-09T10:38:50 -08:00",
+      "dob": "1985-05-09 10:38:50",
       "martialStatus": "married"
     },
     "customer": {
@@ -118,7 +118,7 @@ const fakeData = [
       "email": "sparkssalazar@zilla.com",
       "phone": "(920) 598-2349",
       "contactWay": "tel",
-      "timeToCall": "2016-12-17T09:49:29 -08:00"
+      "timeToCall": "2016-12-17 09:49:29"
     },
     "funeral": {
       "type": "Burial"
@@ -127,8 +127,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2011-10-03T06:46:38 -08:00",
-    "dateModifed": "2016-05-09T04:11:21 -08:00",
+    "dateCreated": "2011-10-03 06:46:38",
+    "dateModifed": "2016-05-09 04:11:21",
     "isActive": false
   },
   {
@@ -142,7 +142,7 @@ const fakeData = [
         "postcode": 2538,
         "country": "Ohio"
       },
-      "dob": "1993-11-21T02:28:34 -08:00",
+      "dob": "1993-11-21 02:28:34",
       "martialStatus": "divorced"
     },
     "customer": {
@@ -151,7 +151,7 @@ const fakeData = [
       "email": "daniellepate@zilla.com",
       "phone": "(880) 448-2741",
       "contactWay": "post",
-      "timeToCall": "2016-10-24T11:00:01 -08:00"
+      "timeToCall": "2016-10-24 11:00:01"
     },
     "funeral": {
       "type": "Tree"
@@ -160,8 +160,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2016-06-28T11:31:25 -08:00",
-    "dateModifed": "2015-12-29T09:23:21 -08:00",
+    "dateCreated": "2016-06-28 11:31:25",
+    "dateModifed": "2015-12-29 09:23:21",
     "isActive": false
   },
   {
@@ -175,7 +175,7 @@ const fakeData = [
         "postcode": 4922,
         "country": "South Carolina"
       },
-      "dob": "2010-10-27T11:32:23 -08:00",
+      "dob": "2010-10-27 11:32:23",
       "martialStatus": "divorced"
     },
     "customer": {
@@ -184,7 +184,7 @@ const fakeData = [
       "email": "mcbridemorse@zilla.com",
       "phone": "(881) 594-2258",
       "contactWay": "post",
-      "timeToCall": "2016-02-10T09:26:20 -08:00"
+      "timeToCall": "2016-02-10 09:26:20"
     },
     "funeral": {
       "type": "Sea"
@@ -193,8 +193,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2015-09-25T03:47:39 -08:00",
-    "dateModifed": "2016-03-18T10:37:26 -08:00",
+    "dateCreated": "2015-09-25 03:47:39",
+    "dateModifed": "2016-03-18 10:37:26",
     "isActive": true
   },
   {
@@ -208,7 +208,7 @@ const fakeData = [
         "postcode": 8293,
         "country": "Puerto Rico"
       },
-      "dob": "1929-08-10T01:15:12 -08:00",
+      "dob": "1929-08-10 01:15:12",
       "martialStatus": "single"
     },
     "customer": {
@@ -217,7 +217,7 @@ const fakeData = [
       "email": "taniahicks@zilla.com",
       "phone": "(817) 412-2910",
       "contactWay": "post",
-      "timeToCall": "2016-08-25T05:32:23 -08:00"
+      "timeToCall": "2016-08-25 05:32:23"
     },
     "funeral": {
       "type": "Burial"
@@ -226,8 +226,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2013-05-15T08:00:14 -08:00",
-    "dateModifed": "2016-12-28T10:42:49 -08:00",
+    "dateCreated": "2013-05-15 08:00:14",
+    "dateModifed": "2016-12-28 10:42:49",
     "isActive": false
   },
   {
@@ -241,7 +241,7 @@ const fakeData = [
         "postcode": 9306,
         "country": "Maryland"
       },
-      "dob": "1950-08-24T11:35:02 -08:00",
+      "dob": "1950-08-24 11:35:02",
       "martialStatus": "divorced"
     },
     "customer": {
@@ -250,7 +250,7 @@ const fakeData = [
       "email": "josefaguthrie@zilla.com",
       "phone": "(843) 546-2126",
       "contactWay": "phone",
-      "timeToCall": "2016-10-05T06:06:23 -08:00"
+      "timeToCall": "2016-10-05 06:06:23"
     },
     "funeral": {
       "type": "Burial"
@@ -259,8 +259,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2012-10-22T11:07:13 -08:00",
-    "dateModifed": "2017-01-26T04:56:49 -08:00",
+    "dateCreated": "2012-10-22 11:07:13",
+    "dateModifed": "2017-01-26 04:56:49",
     "isActive": false
   },
   {
@@ -274,7 +274,7 @@ const fakeData = [
         "postcode": 808,
         "country": "Tennessee"
       },
-      "dob": "2008-10-24T07:49:23 -08:00",
+      "dob": "2008-10-24 07:49:23",
       "martialStatus": "married"
     },
     "customer": {
@@ -283,7 +283,7 @@ const fakeData = [
       "email": "jamiroth@zilla.com",
       "phone": "(879) 526-2523",
       "contactWay": "tel",
-      "timeToCall": "2016-09-27T08:14:26 -08:00"
+      "timeToCall": "2016-09-27 08:14:26"
     },
     "funeral": {
       "type": "Cremation"
@@ -292,8 +292,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2015-09-22T05:03:53 -08:00",
-    "dateModifed": "2015-01-08T06:48:57 -08:00",
+    "dateCreated": "2015-09-22 05:03:53",
+    "dateModifed": "2015-01-08 06:48:57",
     "isActive": false
   },
   {
@@ -307,7 +307,7 @@ const fakeData = [
         "postcode": 6039,
         "country": "Rhode Island"
       },
-      "dob": "1949-11-24T07:47:13 -08:00",
+      "dob": "1949-11-24 07:47:13",
       "martialStatus": "married"
     },
     "customer": {
@@ -316,7 +316,7 @@ const fakeData = [
       "email": "kristinahouston@zilla.com",
       "phone": "(920) 582-3135",
       "contactWay": "phone",
-      "timeToCall": "2016-12-24T07:10:12 -08:00"
+      "timeToCall": "2016-12-24 07:10:12"
     },
     "funeral": {
       "type": "Sea"
@@ -325,8 +325,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2011-01-13T01:03:26 -08:00",
-    "dateModifed": "2015-03-14T11:00:49 -08:00",
+    "dateCreated": "2011-01-13 01:03:26",
+    "dateModifed": "2015-03-14 11:00:49",
     "isActive": true
   },
   {
@@ -340,7 +340,7 @@ const fakeData = [
         "postcode": 2842,
         "country": "Mississippi"
       },
-      "dob": "2011-09-04T04:06:23 -08:00",
+      "dob": "2011-09-04 04:06:23",
       "martialStatus": "single"
     },
     "customer": {
@@ -349,7 +349,7 @@ const fakeData = [
       "email": "aracelirollins@zilla.com",
       "phone": "(903) 462-2259",
       "contactWay": "tel",
-      "timeToCall": "2016-03-23T05:02:06 -08:00"
+      "timeToCall": "2016-03-23 05:02:06"
     },
     "funeral": {
       "type": "Tree"
@@ -358,8 +358,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2015-04-03T08:08:13 -08:00",
-    "dateModifed": "2016-12-15T10:33:18 -08:00",
+    "dateCreated": "2015-04-03 08:08:13",
+    "dateModifed": "2016-12-15 10:33:18",
     "isActive": true
   },
   {
@@ -373,7 +373,7 @@ const fakeData = [
         "postcode": 9805,
         "country": "North Carolina"
       },
-      "dob": "1959-01-14T07:10:41 -08:00",
+      "dob": "1959-01-14 07:10:41",
       "martialStatus": "married"
     },
     "customer": {
@@ -382,7 +382,7 @@ const fakeData = [
       "email": "keyharding@zilla.com",
       "phone": "(872) 494-2153",
       "contactWay": "post",
-      "timeToCall": "2016-06-24T10:05:48 -08:00"
+      "timeToCall": "2016-06-24 10:05:48"
     },
     "funeral": {
       "type": "Sea"
@@ -391,8 +391,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2016-01-10T07:22:12 -08:00",
-    "dateModifed": "2015-10-03T02:53:44 -08:00",
+    "dateCreated": "2016-01-10 07:22:12",
+    "dateModifed": "2015-10-03 02:53:44",
     "isActive": true
   },
   {
@@ -406,7 +406,7 @@ const fakeData = [
         "postcode": 7879,
         "country": "North Dakota"
       },
-      "dob": "1970-08-12T02:47:28 -08:00",
+      "dob": "1970-08-12 02:47:28",
       "martialStatus": "married"
     },
     "customer": {
@@ -415,7 +415,7 @@ const fakeData = [
       "email": "henryraymond@zilla.com",
       "phone": "(807) 429-2292",
       "contactWay": "phone",
-      "timeToCall": "2016-07-19T02:46:09 -08:00"
+      "timeToCall": "2016-07-19 02:46:09"
     },
     "funeral": {
       "type": "Burial"
@@ -424,8 +424,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2011-03-30T09:23:28 -08:00",
-    "dateModifed": "2016-10-04T03:40:59 -08:00",
+    "dateCreated": "2011-03-30 09:23:28",
+    "dateModifed": "2016-10-04 03:40:59",
     "isActive": false
   },
   {
@@ -439,7 +439,7 @@ const fakeData = [
         "postcode": 3940,
         "country": "Idaho"
       },
-      "dob": "1946-02-24T04:45:46 -08:00",
+      "dob": "1946-02-24 04:45:46",
       "martialStatus": "married"
     },
     "customer": {
@@ -448,7 +448,7 @@ const fakeData = [
       "email": "talleyreed@zilla.com",
       "phone": "(972) 477-2882",
       "contactWay": "phone",
-      "timeToCall": "2016-03-01T03:57:10 -08:00"
+      "timeToCall": "2016-03-01 03:57:10"
     },
     "funeral": {
       "type": "Burial"
@@ -457,8 +457,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2014-01-29T01:45:58 -08:00",
-    "dateModifed": "2015-04-04T10:53:15 -08:00",
+    "dateCreated": "2014-01-29 01:45:58",
+    "dateModifed": "2015-04-04 10:53:15",
     "isActive": false
   },
   {
@@ -472,7 +472,7 @@ const fakeData = [
         "postcode": 7387,
         "country": "New Jersey"
       },
-      "dob": "1958-08-29T03:43:23 -08:00",
+      "dob": "1958-08-29 03:43:23",
       "martialStatus": "single"
     },
     "customer": {
@@ -481,7 +481,7 @@ const fakeData = [
       "email": "bucknerparker@zilla.com",
       "phone": "(906) 524-3941",
       "contactWay": "post",
-      "timeToCall": "2016-07-16T06:18:12 -08:00"
+      "timeToCall": "2016-07-16 06:18:12"
     },
     "funeral": {
       "type": "Sea"
@@ -490,8 +490,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2014-09-23T09:23:23 -08:00",
-    "dateModifed": "2015-03-22T08:42:38 -08:00",
+    "dateCreated": "2014-09-23 09:23:23",
+    "dateModifed": "2015-03-22 08:42:38",
     "isActive": true
   },
   {
@@ -505,7 +505,7 @@ const fakeData = [
         "postcode": 4824,
         "country": "Florida"
       },
-      "dob": "1964-12-26T03:35:26 -08:00",
+      "dob": "1964-12-26 03:35:26",
       "martialStatus": "single"
     },
     "customer": {
@@ -514,7 +514,7 @@ const fakeData = [
       "email": "mayskinner@zilla.com",
       "phone": "(828) 417-2930",
       "contactWay": "tel",
-      "timeToCall": "2016-02-13T03:54:43 -08:00"
+      "timeToCall": "2016-02-13 03:54:43"
     },
     "funeral": {
       "type": "Sea"
@@ -523,8 +523,8 @@ const fakeData = [
       "dobCertificateUrl": "",
       "MaritalCertificateUrl": ""
     },
-    "dateCreated": "2013-06-07T04:27:37 -08:00",
-    "dateModifed": "2016-06-25T06:19:56 -08:00",
+    "dateCreated": "2013-06-07 04:27:37",
+    "dateModifed": "2016-06-25 06:19:56",
     "isActive": false
   }
 ];

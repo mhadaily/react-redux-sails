@@ -9,7 +9,7 @@ class CustomerCards extends React.Component {
     super(props);
   }
 
-  handleDataFormat(date){
+  handleDataFormat(date) {
     return dateHelper.getFormattedDateTime(new Date(date));
   }
 
@@ -22,7 +22,7 @@ class CustomerCards extends React.Component {
           subtitle={this.props.caseSingle.customer.martialStatus}
         />
         <CardTitle
-          title={this.props.caseSingle.customer.email + ' ' + this.props.caseSingle.customer.phone}
+          title={'Email:' + this.props.caseSingle.customer.email + ' Phone:' + this.props.caseSingle.customer.phone}
           subtitle={this.props.caseSingle.customer.contactWay}
         />
         <CardText>Time to Call: {this.handleDataFormat(this.props.caseSingle.customer.timeToCall)}</CardText>

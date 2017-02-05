@@ -1,11 +1,16 @@
 import React from 'react';
 import { Card, CardTitle, CardText, CardActions } from 'react-toolbox/lib/card';
 import { Button } from 'react-toolbox/lib/button';
+import dateHelper from '../../helpers/dataFormat';
 
 class DeceasedCards extends React.Component {
 
   constructor(props) {
     super(props);
+  }
+
+  handleDataFormat(date) {
+    return dateHelper.getFormattedDateTime(new Date(date));
   }
 
   render() {
@@ -17,7 +22,7 @@ class DeceasedCards extends React.Component {
           subtitle={this.props.caseSingle.deceased.martialStatus}
         />
         <CardTitle
-          title={this.props.caseSingle.deceased.dob}
+          title={this.handleDataFormat(this.props.caseSingle.deceased.dob)}
         />
         <CardText>{this.props.caseSingle.deceased.address.line1}<br/>
           {this.props.caseSingle.deceased.address.city}
