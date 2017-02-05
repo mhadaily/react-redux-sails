@@ -26,7 +26,11 @@ Please after making sure Docker is up and running on your machine go ahead and h
 
 2- **Install sails globally** `npm install -g sails`
 
+3- **Install MongdoDB and Run** please see mongodb guide to install on their website.
+
 3- **Start app**. `npm run lift or sails lift`
+
+**NOTE:** If you are not running docker please go to config/connection.js and change MongodbServer port to your local mongoDB which is 27018  
 
 ###Initial Machine Setup
 1. **Install [Node 4.0.0 or greater](https://nodejs.org)** - (5.0 or greater is recommended for optimal build performance). Need to run multiple versions of Node? Use [nvm](https://github.com/creationix/nvm) or [n](https://github.com/tj/n). I personally recommend to use node 7+ and I have setup my docker-node with this version.

@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  mymoria_server_dev:
+  mymoria_dev:
     container_name: mymoria_server
     build: .
     command: npm run lift
