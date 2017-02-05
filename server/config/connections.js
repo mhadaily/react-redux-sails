@@ -56,10 +56,15 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  mymoriaMongodbServer: {
+  mymoriaDockerMongodbServer: {
+    adapter: 'sails-mongo',
+    url: 'mongodb://mongodb_mymoria_dev/mymoria_server_dev'
+  },
+
+  mymoriaLocalMongodbServer: {
     adapter: 'sails-mongo',
     host: 'localhost',
-    port: 3050, //if you are running mongoDB locally simply change this number to 27018
+    port: '27018', //change this to your mongoDB localhost
     user: '', //optional
     password: '', //optional
     database: 'mymoria_server_dev' //optional

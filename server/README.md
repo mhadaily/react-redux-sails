@@ -18,7 +18,11 @@ Please after making sure Docker is up and running on your machine go ahead and h
 
 **Note:** It will run two container one is for sails with Node version 7.4 and another one is building Database container
 . Database container will be using port 3050 so use this if you want to communicate with database directly. 
+However, if you are running all on your Localhost please go to `config/models.js` and change model to `mymoriaLocalMongodbServer`
+ otherwise please use docker with `mymoriaDockerMongodbServer`. Configuration can be found in `config/connection..js`
 
+I assume you are using Docker though you don't need to do anything but if you are wiiling to run on your local machine 
+please do change all configuration to get this app run. 
 
 ### Get Started on your local Machine if you prefer
 
