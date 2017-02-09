@@ -1,4 +1,4 @@
-##Mymoria Prototype
+##React-Redux-Sails Prototype
 
 This prototype application was written in server side with 
  sails and in client side as I as asked with React, Redux and React-toolbox. 
