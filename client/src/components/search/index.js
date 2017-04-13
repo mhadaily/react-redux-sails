@@ -1,30 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router';
-import { List, ListItem, ListSubHeader, Input } from 'react-toolbox';
+import { List, ListItem, ListSubHeader } from 'react-toolbox/components/list';
+import { Input } from 'react-toolbox/components/input';
 import fakeData from '../../data/case';
 
 class SearchPage extends React.Component {
-
+  
   constructor(props) {
     super(props);
     this.state = {};
   }
-
+  
   filtered = fakeData;
-
+  
   handleChange(value) {
     let filter = fakeData.filter(obj => {
-      return obj.deceased.sureName.includes(value) || obj.deceased.name.includes(value)
+      return obj.deceased.sureName.includes(value) || obj.deceased.name.includes(value);
     });
-    this.setState({filter});
+    this.setState({ filter });
   };
-
+  
   render() {
     let listFilter;
-    if (typeof this.state.filter === "undefined") {
-      listFilter = this.filtered
+    if (typeof this.state.filter === 'undefined') {
+      listFilter = this.filtered;
     } else {
-      listFilter = this.state.filter
+      listFilter = this.state.filter;
     }
     return (
       <List selectable ripple>
@@ -47,7 +48,7 @@ class SearchPage extends React.Component {
       </List>
     );
   }
-
+  
 }
 
 export default SearchPage;
