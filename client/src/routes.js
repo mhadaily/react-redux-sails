@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import App from './components/App';
 import HomePage from './components/homepage';
 import CaseContainer from './containers/CasePage';
@@ -12,21 +12,21 @@ import SearchPageComponent from './components/search';
 const routes = {
   path: '/',
   component: App,
-  indexRoute: {component: HomePage},
+  indexRoute: { component: HomePage },
   childRoutes: [
     {
       path: 'case',
       component: CaseContainer,
-      indexRoute: {component: CustomerCaseContainer},
+      indexRoute: { component: CustomerCaseContainer },
       childRoutes: [
-        {path: 'deceased', component: DeceasedCaseContainer},
-        {path: 'funeral', component: FuneralCaseContainer},
-      ]
+        { path: 'deceased', component: DeceasedCaseContainer },
+        { path: 'funeral', component: FuneralCaseContainer },
+      ],
     },
-    {path: 'case/:id', component: SingleCaseComponent},
-    {path: 'search', component: SearchPageComponent},
-    {path: '*', component: NotFoundPage},
-  ]
+    { path: 'case/:id', component: SingleCaseComponent },
+    { path: 'search', component: SearchPageComponent },
+    { path: '*', component: NotFoundPage },
+  ],
 };
 
 export default routes;
